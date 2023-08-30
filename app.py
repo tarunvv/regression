@@ -19,7 +19,7 @@ def return_df(tv,radio,newspaper):
 
 
 def base_model():
-    bmodel=jb.load(os.path.join('finalised_model_regression.pkl'))
+    bmodel=jb.load(os.path.join('finalized_model_regression.pkl'))
     return bmodel
 
 st.markdown(heading_style, unsafe_allow_html=True)
