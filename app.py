@@ -8,7 +8,7 @@ heading_style = '''
 <h1>Loan Amount Prediction System</h1>
 </div>
 '''
-def return_df(tv,radio,newspaper)
+def return_df(tv,radio,newspaper):
     kbn={
 	'tv':[tv]
 	'radio':[radio]
